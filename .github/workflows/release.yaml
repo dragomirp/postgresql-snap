@@ -9,7 +9,7 @@ concurrency:
 on:
   push:
     branches:
-      - "*/edge"
+      - '*/edge'
     paths:
       - snap/**
   workflow_dispatch:
